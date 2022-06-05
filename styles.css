@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: white;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
+    border: none;
+    background-color: rgba(30, 28, 75, 0.8);
+    box-shadow: 0 1rem 4rem #000000b7;
+}
+
+.card-header{
+    padding: 10rem 0;
+    background-image: url(img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+#lista{
+    list-style: none;
+}
+
+.row{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+}
